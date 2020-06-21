@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+footer {
+    background-color: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+header {
+    background-color: thistle;
+}
+#nom{
+    display: flex;
+    justify-content: center;
+    background-color: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    position: sticky;
+    top:0;
+}
+p {
+    color: white;
+}
+h2{
+    color: rgb(243, 205, 198);
+    font-size: 20px;
+}
+h3
+{color: white;
+}
+li{ display: inline;
+    font-size: large;
+}
+
+.image{
+   display: flex;
+   justify-content: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px;
+  }
+  h1{
+      color: white;
+  }
