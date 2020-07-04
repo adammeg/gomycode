@@ -1,39 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Condensed:wght@300&display=swap');
 body{
-    display: flex;
-    justify-content: center;
-    background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-color: gray;
 
 }
-footer {
-    background-color: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
-}
-header {
-    background-color: thistle;
-}
-#nom{
-    display: flex;
-    justify-content: center;
-    background-color: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
-    position: sticky;
-    top:0;
+header{
+    background-color:gainsboro ;
 }
 p {
-    color: white;
-}
+    color: black;
+    font-family: 'Bangers', cursive;}
 h2{
-    color: rgb(243, 205, 198);
+    color: black;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 h3
-{color: white;
+{color: black;
 }
 li{ display: inline;
     font-size: large;
@@ -43,11 +27,41 @@ li{ display: inline;
    display: flex;
    justify-content: center;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: 100px 200px 300px;
-    grid-template-rows: 100px 200px 300px;
-  }
   h1{
-      color: white;
+      color:black;
   }
+  footer{
+      background-color: gainsboro;
+  }
+  a{
+      justify-content: space-between;
+     
+      color: burlywood;
+  }
+  #nav{
+    position: sticky;
+    top:0;
+  }
+  .main{
+      padding: 0% 10% 0% 10%;
+        box-sizing: border-box;
+        background-color: honeydew;
+  }
+  .resum{display: grid;
+    grid-row-end: auto;
+  }
+ 
+  #about  {
+      text-align: center;
+  }
+  #work  {
+      text-align: center;
+  }
+  #project  {
+      text-align: center;
+  }
+  #video{
+      display: flex;
+      justify-content: center;
+  }
+ 

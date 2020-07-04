@@ -2,43 +2,64 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv project</title>
+    <link rel="icon" href="https://gomycode.co/images/favicon.png">
     <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <aside>
-        <div id="nom">
-            <h1> Adam ben hadj aissa</h1>
+    <header>
+    <div id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><i class="fa fa-address-card-o" aria-hidden="true">
+            </i> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#about">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#project">project</a>
+                <a class="nav-item nav-link" href="#work">Work</a>
+                <a class="nav-item nav-link " href="#contact" >contact</a>
+              </div>
+            </div>
         </div>
+          </nav>
+        
         <div class="image">
             <img src="./res/me.jpg" alt="My picture" width="250" height="250">
         </div>
-        <p>this my first profile with html</p>
-        <ul>
-            <li><a href="#about">about</a></li>
-            <li><a href="#project">project</a></li>
-            <li><a href="#work">work</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-        <button>resume</button>
-    </aside>
+        <a href="indes resum.html" target="_blank" class="resum">resume</a>
+    </header>
     <hr>
-
-    <main>
+    <main class="main">
         <section id="about">
             <h2>1. about</h2>
+            <div>
             <h3>hello! im <em>adam benhadj aissa</em> devloppement student</h3>
-            <p>i live in tunisa in megrine exactly </p>
-            <p>im an economist student in fseg tunis </p>
-            <p>i enjoy to coding or to lear a new longage of goding and programing i practessing like a huby</p>
+            <p>i live in tunisa in megrine exactly 
+            im an economist student in fseg tunis 
+            i enjoy to coding or to lear a new longage of goding and programing i practessing like a huby</p>
+            </div>
+        </section>
             <h3>wher i studing ? </h3>
+            <div id="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/z2jgLckP8O8" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+            </div>
         </section>
+        
         <section id="project">
             <h2>2. project</h2>
             <h3>about my projects i have an icomerce web site </h3>
@@ -47,20 +68,26 @@
         <section id="work">
             <h2>3. work</h2>
             <h3>i workes in many sections</h3>
-            <p>i worked in a socity of energy MES distibution </p>
-            <p>i worked in boutiques</p>
-            <p>and i worked in call centre </p>
+            <p>i worked in a socity of energy MES distibution 
+            i worked in boutiques
+            and i worked in call centre </p>
         </section>
-        <footer>
-            <section id="contact">
-                <h2>4. contact</h2>
-                <h3>if you wont to contact me</h3>
-                <a href="https://www.facebook.com/adam.bhadjaissa/">facebook</a><br>
-                <input type="lable" value="send comment">
-                <input type="button" value="submait">
-            </section>
-            </footer>
-        </main>
+        <section id="contact">
+            <h2>4. contact</h2>
+            <h3>if you wont to contact me</h3>
+            <a href="https://www.facebook.com/adam.bhadjaissa"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a> 
+            <br>
+            <a href="https://www.instagram.com/adam.bhadj/?hl=fr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <br>
+            <input type="lable" value="send comment">
+            <input type="button" value="submit">
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>2020 cv work</p>
+        <p>© 2020 All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
