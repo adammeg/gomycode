@@ -27,6 +27,7 @@ li{ display: inline;
    display: flex;
    justify-content: center;
    background-color: lightsteelblue;
+   padding: 20px;
 
 }
   h1{
@@ -54,19 +55,23 @@ li{ display: inline;
   #about  {
       text-align: center;
       background-color: lightcoral;
+      padding: 20px;
   }
   #work  {
       text-align: center;
       background-color: lightgray;
+      padding: 20px;
   }
   #project  {
       text-align: center;
       background-color: lightsalmon;
+      padding: 20px;
   }
   #video{
       display: flex;
       justify-content: center;
       background-color: mediumpurple;
+      padding: 20px;
   }
  .grideone{
      display: grid;
@@ -80,8 +85,13 @@ li{ display: inline;
 #contact{
     text-align: center;
     background-color: lightskyblue;
+    padding: 20px;
 }
 #cv-work{
     display: flex;
     justify-content: flex-end;
+}
+#h3vid{
+    display: flex;
+    justify-content: center;
 }
