@@ -10,6 +10,22 @@ p {
     color: white;
     font-family: 'Bangers', cursive;
 }
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 h2 {
     color: white;
@@ -30,9 +46,9 @@ li {
 }
 
 .image img {
+    animation-play-state: running;
     border-radius: 50%;
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important
-    
 }
 h3{
     color: white;
